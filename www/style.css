@@ -1,0 +1,974 @@
+#divApplab.appModern button,
+#divApplab.appModern button:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label,
+#divApplab.appModern label:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  line-height: 1;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  word-wrap: break-word;
+  color: rgb(51, 51, 51);
+  max-width: 320px;
+  width: 32px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text],
+#divApplab.appModern input[type=text]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox],
+#divApplab.appModern input[type=checkbox]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select,
+#divApplab.appModern select:hover {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio],
+#divApplab.appModern input[type=radio]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea,
+#divApplab.appModern div.textArea:hover {
+  width: 200px;
+  height: 100px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img,
+#divApplab.appModern img:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas,
+#divApplab.appModern canvas:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen,
+#divApplab.appModern div.screen:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#divApplab.appModern div.chart,
+#divApplab.appModern div.chart:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range],
+#divApplab.appModern input[type=range]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #screen1 {
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #input1 {
+  left: 50px;
+  top: 65px;
+}
+
+#divApplab.appModern #input2 {
+  left: 50px;
+  top: 135px;
+}
+
+#divApplab.appModern #add {
+  background-color: rgb(17, 63, 226);
+  left: 50px;
+  top: 195px;
+}
+
+#divApplab.appModern #equals {
+  left: 50px;
+  top: 305px;
+}
+
+#divApplab.appModern #text_area2 {
+  width: 60px;
+  height: 30px;
+  left: 120px;
+  top: 100px;
+  text-align: center;
+}
+
+#divApplab.appModern #sub {
+  background-color: rgb(17, 63, 226);
+  left: 170px;
+  top: 195px;
+}
+
+#divApplab.appModern #label1 {
+  width: 156px;
+  height: 35px;
+  left: 75px;
+  top: 15px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#divApplab.appModern #times {
+  background-color: rgb(17, 63, 226);
+  left: 50px;
+  top: 240px;
+}
+
+#divApplab.appModern #divide {
+  background-color: rgb(17, 63, 226);
+  left: 170px;
+  top: 240px;
+}
+
+#divApplab.appModern #label2 {
+  font-size: 16px;
+  width: 204px;
+  height: 21px;
+  top: 429px;
+}
+
+#divApplab.appModern #page1 {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #spin {
+  height: 50px;
+  width: 50px;
+  left: 260px;
+  top: 190px;
+}
+
+#divApplab.appModern #clear {
+  height: 20px;
+  width: 55px;
+  left: 250px;
+  top: 280px;
+  background-color: rgb(17, 63, 226);
+}
+
+#divApplab.appModern #toinput1 {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 5px;
+  top: 65px;
+}
+
+#divApplab.appModern #toinput2 {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 5px;
+  top: 135px;
+}
+
+#divApplab.appModern #save {
+  width: 60px;
+  background-color: rgb(17, 63, 226);
+  left: 255px;
+  top: 340px;
+}
+
+#divApplab.appModern #saveinput1 {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 255px;
+  top: 65px;
+}
+
+#divApplab.appModern #saveinput2 {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 255px;
+  top: 135px;
+}
+
+#divApplab.appModern #savet {
+  width: 70px;
+  height: 30px;
+  left: 245px;
+  top: 20px;
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #pi {
+  height: 20px;
+  width: 25px;
+  background-color: rgb(17, 63, 226);
+  left: 265px;
+  top: 245px;
+}
+
+#divApplab.appModern #screen2 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #page2 {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #randnum {
+  height: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 15px;
+  top: 15px;
+}
+
+#divApplab.appModern #version {
+  width: 139px;
+  left: 5px;
+  top: 430px;
+}
+
+#divApplab.appModern #Change {
+  height: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 15px;
+  top: 375px;
+}
+
+#divApplab.appModern #convertb {
+  height: 45px;
+  background-color: rgb(17, 63, 226);
+  left: 110px;
+  top: 15px;
+}
+
+#divApplab.appModern #wconvert {
+  height: 45px;
+  width: 85px;
+  background-color: rgb(17, 63, 226);
+  left: 200px;
+  top: 15px;
+}
+
+#divApplab.appModern #vconvert {
+  height: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 15px;
+  top: 85px;
+}
+
+#divApplab.appModern #tconvert {
+  height: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 110px;
+  top: 85px;
+}
+
+#divApplab.appModern #Volume {
+  height: 40px;
+  width: 70px;
+  background-color: rgb(17, 63, 226);
+  left: 200px;
+  top: 85px;
+}
+
+#divApplab.appModern #french {
+  background-color: rgb(17, 63, 226);
+  left: 15px;
+  top: 210px;
+}
+
+#divApplab.appModern #screen3 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #zzzzz {
+  width: 205px;
+  left: 60px;
+  top: 290px;
+  font-size: 18px;
+}
+
+#divApplab.appModern #label3 {
+  width: 216px;
+  height: 35px;
+  left: 50px;
+  top: 20px;
+  font-size: 30px;
+}
+
+#divApplab.appModern #page1c {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #zzzz {
+  width: 205px;
+  height: 55px;
+  font-size: 18px;
+  left: 60px;
+  top: 220px;
+}
+
+#divApplab.appModern #label5 {
+  font-size: 18px;
+  width: 150px;
+  height: 23px;
+  left: 70px;
+  top: 420px;
+}
+
+#divApplab.appModern #zzz {
+  width: 205px;
+  height: 70px;
+  font-size: 18px;
+  left: 60px;
+  top: 135px;
+}
+
+#divApplab.appModern #text_area1 {
+  width: 180px;
+  height: 60px;
+  left: 70px;
+  top: 60px;
+}
+
+#divApplab.appModern #screen4 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #label7 {
+  font-size: 18px;
+  width: 310px;
+  height: 20px;
+  left: 5px;
+  top: 5px;
+}
+
+#divApplab.appModern #page1h {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #spinon {
+  background-color: rgb(17, 63, 226);
+  left: 10px;
+  top: 60px;
+}
+
+#divApplab.appModern #spinoff {
+  background-color: rgb(17, 63, 226);
+  left: 10px;
+  top: 105px;
+}
+
+#divApplab.appModern #ID {
+  background-color: rgb(17, 63, 226);
+  left: 10px;
+  top: 155px;
+}
+
+#divApplab.appModern #placeholder2 {
+  background-color: rgb(17, 63, 226);
+  left: 10px;
+  top: 205px;
+}
+
+#divApplab.appModern #IDi {
+  width: 210px;
+  height: 50px;
+  left: 10px;
+  top: 395px;
+}
+
+#divApplab.appModern #screen5 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #image3 {
+  height: 280px;
+  width: 0.824916px;
+  left: 276px;
+  top: 48px;
+}
+
+#divApplab.appModern #convert {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 165px;
+}
+
+#divApplab.appModern #convertin {
+  left: 55px;
+  top: 30px;
+}
+
+#divApplab.appModern #convertdone {
+  left: 55px;
+  top: 295px;
+}
+
+#divApplab.appModern #page1g {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #convertfrom {
+  left: 55px;
+  top: 100px;
+  background-color: rgb(17, 63, 226);
+}
+
+#divApplab.appModern #convertto {
+  left: 55px;
+  top: 235px;
+  background-color: rgb(17, 63, 226);
+}
+
+#divApplab.appModern #zzzzzz {
+  width: 42px;
+  left: 10px;
+  top: 105px;
+}
+
+#divApplab.appModern #zzzzzzz {
+  width: 21px;
+  left: 20px;
+  top: 240px;
+}
+
+#divApplab.appModern #savet2 {
+  width: 65px;
+  height: 35px;
+  left: 250px;
+  top: 150px;
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #saveconvert1 {
+  width: 35px;
+  background-color: rgb(17, 63, 226);
+  left: 260px;
+  top: 30px;
+}
+
+#divApplab.appModern #save2 {
+  width: 50px;
+  background-color: rgb(17, 63, 226);
+  left: 260px;
+  top: 325px;
+}
+
+#divApplab.appModern #screen6 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #image4 {
+  height: 269px;
+  width: 0.740741px;
+  left: 274px;
+  top: 57px;
+}
+
+#divApplab.appModern #page1b {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #Convertin {
+  left: 55px;
+  top: 30px;
+}
+
+#divApplab.appModern #label8 {
+  width: 42px;
+  left: 10px;
+  top: 105px;
+}
+
+#divApplab.appModern #Convertfrom {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 100px;
+}
+
+#divApplab.appModern #Convert {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 165px;
+}
+
+#divApplab.appModern #label9 {
+  width: 21px;
+  left: 25px;
+  top: 240px;
+}
+
+#divApplab.appModern #Convertto {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 235px;
+}
+
+#divApplab.appModern #Convertdone {
+  left: 55px;
+  top: 295px;
+}
+
+#divApplab.appModern #saveconvert2 {
+  width: 30px;
+  background-color: rgb(17, 63, 226);
+  left: 260px;
+  top: 30px;
+}
+
+#divApplab.appModern #save3 {
+  width: 60px;
+  background-color: rgb(17, 63, 226);
+  left: 260px;
+  top: 325px;
+}
+
+#divApplab.appModern #savet3 {
+  width: 70px;
+  height: 30px;
+  left: 245px;
+  top: 170px;
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #screen7 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #image1 {
+  height: 265px;
+  width: 0.858586px;
+  left: 275px;
+  top: 58px;
+}
+
+#divApplab.appModern #COnvertin {
+  left: 55px;
+  top: 30px;
+}
+
+#divApplab.appModern #COnvertfrom {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 100px;
+}
+
+#divApplab.appModern #COnvertto {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 235px;
+}
+
+#divApplab.appModern #COnvert {
+  background-color: rgb(17, 63, 226);
+  left: 55px;
+  top: 165px;
+}
+
+#divApplab.appModern #zzzzzzzz {
+  width: 25px;
+  left: 20px;
+  top: 240px;
+}
+
+#divApplab.appModern #zzzzzzzzzzzzzzzzzzzzzzzz {
+  width: 42px;
+  left: 10px;
+  top: 105px;
+}
+
+#divApplab.appModern #COnvertdone {
+  left: 55px;
+  top: 290px;
+}
+
+#divApplab.appModern #Page1 {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #save4 {
+  width: 60px;
+  background-color: rgb(17, 63, 226);
+  left: 260px;
+  top: 320px;
+}
+
+#divApplab.appModern #savet4 {
+  width: 75px;
+  height: 30px;
+  background-color: rgb(58, 199, 199);
+  left: 240px;
+  top: 165px;
+}
+
+#divApplab.appModern #saveconvert3 {
+  width: 35px;
+  background-color: rgb(17, 63, 226);
+  left: 260px;
+  top: 30px;
+}
+
+#divApplab.appModern #IP {
+  display: none;
+  background-color: rgb(25, 201, 204);
+}
+
+#divApplab.appModern #label11 {
+  width: 210px;
+  height: 100px;
+  left: 50px;
+  top: 35px;
+  font-size: 30px;
+}
+
+#divApplab.appModern #goback {
+  height: 135px;
+  width: 245px;
+  font-size: 34px;
+  background-color: rgb(26, 43, 188);
+  left: 30px;
+  top: 275px;
+}
+
+#divApplab.appModern #label12 {
+  font-size: 10px;
+  width: 93px;
+  height: 15px;
+  left: 175px;
+  top: 240px;
+}
+
+#divApplab.appModern #screen8 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #PAge1 {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #F1 {
+  width: 75px;
+  height: 35px;
+  left: 50px;
+  top: 130px;
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #C2 {
+  width: 75px;
+  height: 35px;
+  left: 50px;
+  top: 200px;
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #label10 {
+  width: 71px;
+  left: 130px;
+  top: 140px;
+}
+
+#divApplab.appModern #label14 {
+  width: 71px;
+  left: 130px;
+  top: 210px;
+}
+
+#divApplab.appModern #label15 {
+  font-size: 30px;
+  width: 240px;
+  height: 65px;
+  left: 65px;
+  top: 25px;
+}
+
+#divApplab.appModern #C1 {
+  left: 205px;
+  top: 130px;
+  width: 75px;
+  height: 35px;
+}
+
+#divApplab.appModern #F2 {
+  left: 205px;
+  top: 200px;
+  width: 75px;
+  height: 35px;
+}
+
+#divApplab.appModern #screen9 {
+  background-color: rgb(58, 199, 199);
+  display: none;
+}
+
+#divApplab.appModern #Page1g {
+  background-color: rgb(17, 63, 226);
+  left: 235px;
+  top: 415px;
+}
+
+#divApplab.appModern #Vollength {
+  left: 60px;
+  top: 45px;
+}
+
+#divApplab.appModern #image2 {
+  height: 286px;
+  width: 0.858586px;
+  left: 291px;
+  top: 32px;
+}
+
+#divApplab.appModern #Volwidth {
+  left: 60px;
+  top: 95px;
+}
+
+#divApplab.appModern #Volhight {
+  left: 60px;
+  top: 145px;
+}
+
+#divApplab.appModern #Volanswer {
+  left: 60px;
+  top: 275px;
+}
+
+#divApplab.appModern #Voltimes {
+  background-color: rgb(17, 63, 226);
+  left: 75px;
+  top: 240px;
+}
+
+#divApplab.appModern #Volclear {
+  height: 25px;
+  width: 50px;
+  background-color: rgb(17, 63, 226);
+  left: 180px;
+  top: 240px;
+}
+
+#divApplab.appModern #zz {
+  font-size: 30px;
+  width: 117px;
+  height: 35px;
+  left: 100px;
+  top: 5px;
+}
+
+#divApplab.appModern #Volsel {
+  width: 180px;
+  background-color: rgb(17, 63, 226);
+  left: 20px;
+  top: 405px;
+}
+
+#divApplab.appModern #Volbase {
+  left: 60px;
+  top: 195px;
+}
+
+#divApplab.appModern #zzzzzzzzz {
+  width: 30px;
+  height: 30px;
+  left: 30px;
+  top: 195px;
+}
+
+#divApplab.appModern #zzzzzzzzzz {
+  width: 30px;
+  height: 30px;
+  left: 30px;
+  top: 145px;
+}
+
+#divApplab.appModern #zzzzzzzzzzz {
+  width: 30px;
+  height: 30px;
+  left: 30px;
+  top: 95px;
+}
+
+#divApplab.appModern #zzzzzzzzzzzz {
+  width: 30px;
+  height: 30px;
+  left: 30px;
+  top: 45px;
+}
+
+#divApplab.appModern #save5 {
+  width: 50px;
+  background-color: rgb(17, 63, 226);
+  left: 265px;
+  top: 310px;
+}
+
+#divApplab.appModern #savet5 {
+  width: 70px;
+  height: 35px;
+  left: 250px;
+  top: 5px;
+  background-color: rgb(58, 199, 199);
+}
+
+#divApplab.appModern #savevolB {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 270px;
+  top: 195px;
+}
+
+#divApplab.appModern #savevolH {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 270px;
+  top: 145px;
+}
+
+#divApplab.appModern #savevolW {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 270px;
+  top: 95px;
+}
+
+#divApplab.appModern #savevolL {
+  width: 40px;
+  background-color: rgb(17, 63, 226);
+  left: 270px;
+  top: 45px;
+}
