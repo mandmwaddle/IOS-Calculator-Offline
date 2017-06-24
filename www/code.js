@@ -320,7 +320,7 @@ onEvent("ID", "click", function() {
   setText("IDi", getUserId());
 });
 onEvent("placeholder2", "click", function() {
-  showElement("Percents");
+  showElement("Numpadgoto");
   showElement("french");
 });
 onEvent("add", "click", function() {
@@ -799,6 +799,561 @@ onEvent("Volclear", "click", function() {
   setText("Volhight", "");
   setText("Volanswer", "");
   setText("Volbase", "");
+});
+// Numpad
+var numpaddigit = 1;
+var numpad1 = "0";
+var numpad2 = "0";
+var numpad3 = "0";
+var numpad4 = "0";
+var numpad5 = "0";
+var numpad6 = "0";
+var numpad7 = "0";
+var numpad8 = "0";
+onEvent("Numpadgoto", "click", function() {
+  setScreen("screennumpad");
+});
+onEvent("page1k", "click", function() {
+  setScreen("screen1");
+});
+onEvent("numpaddrop", "change", function() {
+  if (getText("numpaddrop") == "Entry Box 1") {
+    setText("numpadbox", "");
+    numpaddigit = 1;
+    setText("numpadsent", "");
+    numpad1 = "0";
+    numpad2 = "0";
+    numpad3 = "0";
+    numpad4 = "0";
+    numpad5 = "0";
+    numpad6 = "0";
+    numpad7 = "0";
+    numpad8 = "0";
+  }
+  if (getText("numpaddrop") == "Entry Box 2") {
+    setText("numpadbox", "");
+    numpaddigit = 1;
+    setText("numpadsent", "");
+    numpad1 = "0";
+    numpad2 = "0";
+    numpad3 = "0";
+    numpad4 = "0";
+    numpad5 = "0";
+    numpad6 = "0";
+    numpad7 = "0";
+    numpad8 = "0";
+  }
+});
+onEvent("numpadswitch", "click", function() {
+  if (getText("numpaddrop") == "Entry Box 1") {
+    setText("numpaddrop", "Entry Box 2");
+  } else {
+    setText("numpaddrop", "Entry Box 1");
+  }
+  if (getText("numpaddrop") == "Entry Box 1") {
+    setText("numpadbox", "");
+    numpaddigit = 1;
+    setText("numpadsent", "");
+    numpad1 = "0";
+    numpad2 = "0";
+    numpad3 = "0";
+    numpad4 = "0";
+    numpad5 = "0";
+    numpad6 = "0";
+    numpad7 = "0";
+    numpad8 = "0";
+  }
+  if (getText("numpaddrop") == "Entry Box 2") {
+    setText("numpadbox", "");
+    numpaddigit = 1;
+    setText("numpadsent", "");
+    numpad1 = "0";
+    numpad2 = "0";
+    numpad3 = "0";
+    numpad4 = "0";
+    numpad5 = "0";
+    numpad6 = "0";
+    numpad7 = "0";
+    numpad8 = "0";
+  }
+});
+onEvent("numpad0", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "0";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "0";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "0";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "0";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "0";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "0";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "0";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "0";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad1", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "1";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "1";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "1";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "1";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "1";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "1";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "1";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "1";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad2", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "2";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "2";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "2";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "2";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "2";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "2";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "2";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "2";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad3", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "3";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "3";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "3";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "3";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "3";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "3";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "3";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "3";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad4", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "4";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "4";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "4";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "4";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "4";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "4";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "4";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "4";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad5", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "5";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "5";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "5";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "5";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "5";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "5";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "5";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "5";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad6", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "6";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "6";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "6";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "6";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "6";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "6";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "6";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "6";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad7", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "7";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "7";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "7";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "7";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "7";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "7";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "7";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "7";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad8", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "8";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "8";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "8";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "8";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "8";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "8";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "8";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "8";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+  console.log("88");
+});
+onEvent("numpad9", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 0;
+});
+onEvent("numpad.", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = ".";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = ".";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = ".";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = ".";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = ".";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = ".";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = ".";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = ".";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpad9", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "9";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "9";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "9";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "9";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "9";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "9";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "9";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "9";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});onEvent("numpad-", "click", function() {
+  if (numpaddigit == 1) {
+    numpad1 = "-";
+    setText("numpadbox", numpad1);
+  }
+  if (numpaddigit == 2) {
+    numpad2 = "-";
+    setText("numpadbox", numpad1 + numpad2);
+  }
+  if (numpaddigit == 3) {
+    numpad3 = "-";
+    setText("numpadbox", numpad1 + numpad2 + numpad3);
+  }
+  if (numpaddigit == 4) {
+    numpad4 = "-";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4);
+  }
+  if (numpaddigit == 5) {
+    numpad5 = "-";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5);
+  }
+  if (numpaddigit == 6) {
+    numpad6 = "-";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6);
+  }
+  if (numpaddigit == 7) {
+    numpad7 = "-";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7);
+  }
+  if (numpaddigit == 8) {
+    numpad8 = "-";
+    setText("numpadbox", numpad1 + numpad2 + numpad3 + numpad4 + numpad5 + numpad6 + numpad7 + numpad8);
+  }
+  numpaddigit = numpaddigit + 1;
+});
+onEvent("numpadclear", "click", function() {
+  setText("numpadbox", "");
+  setText("numpadsent", "");
+  numpaddigit = 1;
+  numpad1 = "0";
+  numpad2 = "0";
+  numpad3 = "0";
+  numpad4 = "0";
+  numpad5 = "0";
+  numpad6 = "0";
+  numpad7 = "0";
+  numpad8 = "0";
+});
+onEvent("numpadsend", "click", function() {
+  if (getText("numpaddrop") == "Entry Box 1") {
+    setText("input1", getText("numpadbox"));
+    setText("numpadsent", "Sent");
+  }
+  if (getText("numpaddrop") == "Entry Box 2") {
+    setText("input2", getText("numpadbox"));
+    setText("numpadsent", "Sent");
+  }
 });
 hideElement("spin");
 console.log("done");
